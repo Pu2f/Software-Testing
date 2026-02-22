@@ -39,6 +39,22 @@ class TestStaircase(unittest.TestCase):
         # Assert
         self.assertEqual(result, expected)
 
+    def test_give_2_with_hash_should_be_hh(self):
+        # arrange
+        n = 2
+        pattern = '#'
+        expected_output = \
+        " #\n" + "##"
+        # act
+        result = staircase(n, pattern)
+        # assert
+        self.assertEqual(result, expected_output, f'Should be {expected_output}')
 
-if __name__ == "__main__":
-    unittest.main()
+    def test_invalid_length_of_character(self):
+        # arrange
+        n = 3
+        pattern = '##'
+        # act / assert
+        with self.assertRaises(ValueError):
+            staircase(n, pattern)
+
