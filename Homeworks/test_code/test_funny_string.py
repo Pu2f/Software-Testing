@@ -1,7 +1,7 @@
 import unittest
 from code_under_test.Funny_String import funnystring
 class TestFunnyString(unittest.TestCase):
-    def test_funny_string(self):
+    def test_case_0(self):
         # Arrange
         stdin = "Puff"
         stdin2 = "abc"
