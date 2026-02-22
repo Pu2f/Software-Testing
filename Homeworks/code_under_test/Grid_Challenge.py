@@ -12,13 +12,13 @@ def gridChallenge(grid):
 
     return "YES"
 
-if __name__ == '__main__':
-    t = int(input())
-    for _ in range(t):
-        n = int(input())
-        grid = []
+# if __name__ == '__main__':
+#     t = int(input())
+#     for _ in range(t):
+#         n = int(input())
+#         grid = []
 
-        for _ in range(n):
-            grid.append(input())
+#         for _ in range(n):
+#             grid.append(input())
 
-        print(gridChallenge(grid))
+#         print(gridChallenge(grid))

@@ -7,10 +7,10 @@ def funnystring(s):
     return "Funny"
 
 
-if __name__ == '__main__':
-    q = int(input())
-    if 1 <= q <= 10:
-        for _ in range(q):
-            s = input().strip()
-            if 2 <= len(s) <= 10000: 
-                print(funnystring(s))
+# if __name__ == '__main__':
+#     q = int(input())
+#     if 1 <= q <= 10:
+#         for _ in range(q):
+#             s = input().strip()
+#             if 2 <= len(s) <= 10000: 
+#                 print(funnystring(s))

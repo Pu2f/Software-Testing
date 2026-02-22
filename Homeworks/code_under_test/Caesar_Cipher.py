@@ -10,7 +10,7 @@ def caesarCipher(s, k):
             result += char
     return result
 
-if __name__ == '__main__':
-    s = input()
-    k = int(input())
-    print(caesarCipher(s, k))
+# if __name__ == '__main__':
+#     s = input()
+#     k = int(input())
+#     print(caesarCipher(s, k))

@@ -6,10 +6,10 @@ def alternatingCharacters(s):
             count += 1
     return count
 
-if __name__ == '__main__':
-    q = int(input())
-    if 1 <= q <= 10:
-        for num in range(q):
-            s = input()
-            if 1 <= len(s) <= 10**5:
-                print(alternatingCharacters(s))
+# if __name__ == '__main__':
+#     q = int(input())
+#     if 1 <= q <= 10:
+#         for num in range(q):
+#             s = input()
+#             if 1 <= len(s) <= 10**5:
+#                 print(alternatingCharacters(s))

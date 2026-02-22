@@ -22,7 +22,7 @@ def alternate(s):
 
     return max_len
 
-if __name__ == '__main__':
-    length_s = int(input())
-    s = input()
-    print(alternate(s))
+# if __name__ == '__main__':
+#     length_s = int(input())
+#     s = input()
+#     print(alternate(s))
