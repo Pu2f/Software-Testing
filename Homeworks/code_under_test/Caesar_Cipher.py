@@ -9,3 +9,8 @@ def caesarCipher(s, k):
         else:
             result += char
     return result
+
+if __name__ == '__main__':
+    s = input()
+    k = int(input())
+    print(caesarCipher(s, k))
